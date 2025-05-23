@@ -44,9 +44,6 @@ function Home(){
                 <Input />
                 <DatePickerWithRange />
             </nav>
-            <main className='px-[2%] pb-[5%]'>
-                <DashboardTable />
-            </main>
             <section className='flex flex-row items-center p-4 justify-between'>
                 {   
                     dailyClimateData 
@@ -62,6 +59,9 @@ function Home(){
                         : <></>
                 }
             </section>
+            <main className='px-[2%] pb-[5%]'>
+                <DashboardTable />
+            </main>
         </section>
     );
 }
