@@ -7,7 +7,7 @@ interface ColorMap {
 }
 
 const colorMap: ColorMap = {
-  0: '#FF6384',
+  0: '#008000',
   1: '#36A2EB',
   2: '#FFCE56',
   3: '#4BC0C0',

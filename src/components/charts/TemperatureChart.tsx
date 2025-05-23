@@ -32,10 +32,10 @@ export function TemperatureChartComponent({data}:{data:DailyAvgTemperatureType[]
           <YAxis  />
           <Tooltip />
           <Legend wrapperStyle={legendStyle} payload={[
-                { value: 'Temperatura média em graus', type: 'square', id: 'ID01', color:'#00FF00' },
+                { value: 'Temperatura média em graus', type: 'square', id: 'ID01', color:'#008000' },
                 //{ value: 'Temperatura maxima', type: 'square', id: 'ID02', color:'#000' }
             ]} />
-          <Bar dataKey="avg_temperature" barSize={10} fill="#00FF00"/>
+          <Bar dataKey="avg_temperature" barSize={10} fill="#008000"/>
         </BarChart>
     )
 };
